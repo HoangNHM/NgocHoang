@@ -9,6 +9,7 @@ import {
   MatInputModule,
   MatPaginatorModule,
   MatTableModule,
+  MatSortModule,
 } from '@angular/material';
 
 
@@ -32,6 +33,7 @@ import {TableComponent} from './table/table.component';
     MatPaginatorModule,
     MatInputModule,
     BrowserAnimationsModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
